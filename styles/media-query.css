@@ -7,12 +7,12 @@
     }
     section#login > div#image{
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
     }
     div#form{
         float: right;
-        width: 70%;
+        width: 60%;
     }
     section#login > div#form > h2{
         text-align: center;

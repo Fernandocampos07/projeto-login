@@ -56,27 +56,21 @@ section#login > div#form > p{
     font-size: 0.8em;
  }
  form label{
-   display: none;
- }
- form input{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    border: none;
-    background-color: #78fffb;
-   
- }
- form input:focus-within{
-    background-color: white;
- }
- form .field{
+    display: none;
+  }
+  form input{
     background-color: #5f2c82;
-    padding:4px;
+    width: 100%;
     height: 40px;
-    border-radius: 10px;
     margin: 5px 0px;
+    padding: 5px;
     border: none;
- }
+    border-radius: 10px;
+  }
+  form input:focus-within{
+     background-color: white;
+  }
+  
 form > input[type=submit]{
     display: block;
     width: 100%;
@@ -105,5 +99,5 @@ form > a#buttom{
     margin-top: 10px;    
 }
 form > a#buttom:hover{
-    background-color:  #49a09d7c;
+    background-color:#3a1b4e;
 }
